@@ -2,7 +2,7 @@ import type { Site, Links } from "@/types";
 
 export const SITE: Site = {
   TITLE: "HBBIIIII",
-  DESCRIPTION: "Ahmad Rizky Nusantara Habibi",
+  DESCRIPTION: "A personal web of Ahmad Rizky Nusantara Habibi",
   AUTHOR: "ahmadhabibi14",
   REPO_URL: "https://github.com/ahmadhabibi14/personal-web-v2",
 };
