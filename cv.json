@@ -1,0 +1,126 @@
+{
+  "basics": {
+    "name": "Ahmad Rizky Nusantara Habibi",
+    "nickname": "ahmadhabibi14",
+    "label": "Undergraduate of Computer Science | Back-End Developer",
+    "summary": "Welcome to my spot on the web for Blogs I've written, Things I've created, and anything else that I want to show the world.",
+    "location": {
+      "city": "Lombok",
+      "countryCode": "ID",
+      "region": "Indonesia"
+    },
+    "socials": [
+      {
+        "network": "email",
+        "url": "mailto:habi@ternaklinux.com"
+      },
+      {
+        "network": "telegram",
+        "url": "https://t.me/ahmadhabibi14"
+      },
+      {
+        "network": "github",
+        "url": "https://github.com/ahmadhabibi14"
+      },
+      {
+        "network": "linkedin",
+        "url": "https://linkedin.com/in/ahmadhabibi14"
+      },
+      {
+        "network": "instagram",
+        "url": "https://www.instagram.com/ahmadhabibi14_"
+      },
+      {
+        "network": "x",
+        "url": "https://x.com/ahmadh4bibi14"
+      },
+      {
+        "network": "facebook",
+        "url": "https://www.facebook.com/ahmad.habibi7159"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CV. Bersyukur Nalar Luas",
+      "position": "Freelance Full-Stack Developer",
+      "location_type": "Remote",
+      "location": "Bali, Indonesia",
+      "url": "https://benalu.dev",
+      "startDate": "2023-06-26",
+      "endDate": "2024-12-27",
+      "summary": "Work on a variety of projects, including web applications, APIs. Collaborated with clients to understand their needs and deliver high-quality solutions.",
+      "responsibilities": [
+        "Built back office / admin dashboard",
+        "Slicing UI Design into website",
+        "Add features to an open source frontend framework, Svelte-MPA",
+        "Developed an open source Accounting software, Benakun.",
+        "Managing water sensor monitoring website",
+        "Migrate tech stack of water sensor monitoring website from jQuery to Svelte, Ruby to Go",
+        "Migrate OLAP use cases from PostgreSQL to Clickhouse"
+      ]
+    },
+    {
+      "name": "PT. SalonKita Indonesia",
+      "position": "Web Developer Intern",
+      "location_type": "Remote",
+      "location": "Medan, Indonesia",
+      "url": "https://salonkita.co.id",
+      "startDate": "2024-05-20",
+      "endDate": "2024-09-20",
+      "summary": "Built CMS (Content Management System) for salon products and services.",
+      "responsibilities": [
+        "Design system infrastructure for Backend API, Backoffice portal admin, Frontend web",
+        "Design database schema",
+        "Built backend API, implements rate-limiting, pagination, multi-role user, authentication, image resizing/compressing.",
+        "Setup server environment with Ubuntu Linux server, install Docker, NGINX, Nodejs, Go, etc.",
+        "Built back-office web app, for manage contents, users, products, etc. Implements protected routes, user-friendly UI, and charts"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Qamarul Huda Badaruddin University",
+      "url": "https://uniqhba.ac.id",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2022-09-26",
+      "endDate": null,
+      "summary": "Specialization in Software Engineering, with a focus on Back-End Development. Courses include Data Structures, Algorithms, Object-Oriented Programming, and Software Development."
+    },
+    {
+      "institution": "SMKN Narmada",
+      "url": "https://smkn1narmada.sch.id/",
+      "area": "Computer and Network Engineering",
+      "studyType": "Vocational High School",
+      "startDate": "2019-07-01",
+      "endDate": "2022-05-10",
+      "summary": "Graduated as a vocational high school student with a focus on Server Side Development, Linux Server, and Network Engineering."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Certificate of participated in Web Development Internship program at SalonKita Indonesia",
+      "date": "September 2024",
+      "awarder": "SalonKita Indonesia"
+    }
+  ],
+  "skills": {
+    "programming_languages": ["Go", "JavaScript", "Python", "TypeScript", "Bash Script"],
+    "frameworks": ["Fiber", "Gin", "Express.js", "Svelte", "Sveltekit", "Django", "Flask"],
+    "databases": ["PostgreSQL", "Redis", "ClickHouse", "MySQL"],
+    "tools": ["Docker", "Linux", "Git"]
+  },
+  "projects": [
+    {
+      "name": "Artiwancara",
+      "description": "Interview Training by AI. Powered by Google Gemini",
+      "url": "https://github.com/ahmadhabibi14/artiwancara",
+      "highlights": [
+        "Implemented a chatbot-based interview training system using Google Gemini.",
+        "Designed a simple user interface for users to interact with the chatbot."
+      ],
+      "technologies": ["Python", "Streamlit", "Scikit-learn", "Pandas"]
+    }
+  ]
+}

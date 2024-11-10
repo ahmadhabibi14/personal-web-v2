@@ -1,0 +1,11 @@
+---
+import Heading from "@/components/Heading.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { SITE } from "@/consts";
+---
+
+<BaseLayout title="About" description={SITE.DESCRIPTION}>
+  <div class="container mx-auto my-24 xl:my-5">
+    <Heading title="Blogs" />
+  </div>
+</BaseLayout>

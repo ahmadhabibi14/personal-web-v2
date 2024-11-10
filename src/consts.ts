@@ -1,5 +1,27 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
+import type { Site, Links } from "@/types";
 
-export const SITE_TITLE = 'Ahmad Rizky Nusantara Habibi';
-export const SITE_DESCRIPTION = 'A personal web and blog site of Ahmad Habibi';
+export const SITE: Site = {
+  TITLE: "HBBIIIII",
+  DESCRIPTION: "Ahmad Rizky Nusantara Habibi",
+  AUTHOR: "ahmadhabibi14",
+  REPO_URL: "https://github.com/ahmadhabibi14/personal-web-v2",
+};
+
+export const LINKS: Links = [
+  {
+    TEXT: "Home",
+    HREF: "/",
+  },
+  {
+    TEXT: "About",
+    HREF: "/about",
+  },
+  {
+    TEXT: "Projects",
+    HREF: "/projects",
+  },
+  {
+    TEXT: "Blogs",
+    HREF: "/blogs",
+  },
+];

@@ -1,5 +1,5 @@
 {
-  "name": "personal-web-v2",
+  "name": "ahmadhabibi14",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,18 +7,33 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write . --plugin=prettier-plugin-astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.7.0",
-    "@astrojs/mdx": "^3.1.0",
-    "@astrojs/rss": "^4.0.6",
-    "@astrojs/sitemap": "^3.1.5",
-    "@astrojs/svelte": "^5.5.0",
-    "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.10.2",
-    "svelte": "^4.2.18",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.4.5"
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/tailwind": "^5.1.2",
+    "@tailwindcss/typography": "^0.5.15",
+    "@tsparticles/engine": "^3.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.5.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.16.0",
+    "astro-icon": "^1.1.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.7",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.33.5",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
