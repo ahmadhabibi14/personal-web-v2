@@ -1,0 +1,17 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import BlogPost from "@/layouts/BlogPost.astro";
+
+const posts = await getCollection("blogs");
+type Props = CollectionEntry<"blogs">;
+
+const { slug } = Astro.params;
+const post = posts.find((page: any) => page.slug === slug);
+if (!post) return Astro.redirect("/404");
+
+const { Content } = await post.render();
+---
+
+<BlogPost {...post.data}>
+	<Content />
+</BlogPost>

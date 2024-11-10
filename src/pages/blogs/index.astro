@@ -1,0 +1,31 @@
+---
+import Heading from "@/components/Heading.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import CardPost from "@/components/CardPost.astro";
+
+const posts = (await getCollection("blogs")).sort(
+  (a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+)
+---
+
+<BaseLayout title="Blogs" description="List of my blogs">
+  <div class="container mx-auto my-24 xl:my-5">
+    <Heading title="Blogs" />
+    <section>
+      <div class="flex flex-col gap-4">
+        {
+          posts.map((post: any ) => (
+            <CardPost
+              url={`/blogs/${post.slug}`}
+              title={post.data.title}
+              summary={post.data.description}
+              date={post.data.pubDate}
+              tags={post.data.tags || []}
+            />
+          ))
+        }
+      </div>
+    </section>
+  </div>
+</BaseLayout>

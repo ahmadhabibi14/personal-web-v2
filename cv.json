@@ -119,12 +119,12 @@
     {
       "name": "Artiwancara",
       "description": "Interview Training by AI. Powered by Google Gemini",
-      "url": "https://github.com/ahmadhabibi14/artiwancara",
+      "url": "https://artiwancara.vercel.app",
       "highlights": [
         "Implemented a chatbot-based interview training system using Google Gemini.",
         "Designed a simple user interface for users to interact with the chatbot."
       ],
-      "technologies": ["Python", "Streamlit", "Scikit-learn", "Pandas"]
+      "technologies": ["Sveltekit", "Google Gemini", "TypeScript", "AssemblyAI"]
     }
   ]
 }
