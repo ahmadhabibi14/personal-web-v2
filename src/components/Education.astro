@@ -1,6 +1,7 @@
 ---
 import Section from "./Section.astro";
 import { education } from "@cv";
+import { formatDate } from "@/lib/formatter";
 ---
 
 <Section className={Astro.props.className} title="Education">
@@ -8,9 +9,7 @@ import { education } from "@cv";
     {
       education.map(
         ({ institution, startDate, endDate, area, url, summary }) => {
-          const startYear = new Date(startDate).getFullYear();
-          const endYear = endDate ? new Date(endDate).getFullYear() : "Present";
-          const years = `${startYear} - ${endYear}`;
+          const years = `${formatDate(startDate)} - ${endDate ? formatDate(endDate) : "Present"}`;
 
           return (
             <li class="flex flex-col md:flex-row md:items-baseline">

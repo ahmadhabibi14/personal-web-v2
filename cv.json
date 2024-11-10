@@ -46,8 +46,9 @@
   },
   "work": [
     {
-      "name": "CV. Bersyukur Nalar Luas",
-      "position": "Freelance Full-Stack Developer",
+      "name": "Benalu Dev",
+      "position": "Full-Stack Engineer",
+      "job_type": "Freelance",
       "location_type": "Remote",
       "location": "Bali, Indonesia",
       "url": "https://benalu.dev",
@@ -65,8 +66,9 @@
       ]
     },
     {
-      "name": "PT. SalonKita Indonesia",
-      "position": "Web Developer Intern",
+      "name": "SalonKita Indonesia",
+      "position": "Web Developer",
+      "job_type": "Internship",
       "location_type": "Remote",
       "location": "Medan, Indonesia",
       "url": "https://salonkita.co.id",
@@ -79,6 +81,36 @@
         "Built backend API, implements rate-limiting, pagination, multi-role user, authentication, image resizing/compressing.",
         "Setup server environment with Ubuntu Linux server, install Docker, NGINX, Nodejs, Go, etc.",
         "Built back-office web app, for manage contents, users, products, etc. Implements protected routes, user-friendly UI, and charts"
+      ]
+    },
+    {
+      "name": "Petani Kode",
+      "position": "Web Content Writer",
+      "job_type": "Seasonal",
+      "location_type": "Hybrid",
+      "location": "Lombok, Indonesia",
+      "url": "https://petanikode.com",
+      "startDate": "2022-02-5",
+      "endDate": null,
+      "summary": "As a content writer, mostly write programming tutorials",
+      "responsibilities": [
+        "Write content or programming tutorial.",
+        "Slicing UI design from figma to website."
+      ]
+    },
+    {
+      "name": "Duitin Indonesia",
+      "position": "Frontend Web Developer",
+      "job_type": "Freelance",
+      "location_type": "Remote",
+      "location": "Jakarta, Indonesia",
+      "url": "https://petanikode.com",
+      "startDate": "2022-08-10",
+      "endDate": "2022-10-10",
+      "summary": "As a content writer, mostly write programming tutorials",
+      "responsibilities": [
+        "Slicing UI design from Adobe XD into website duitin.id",
+        "Create a blog pages that fetches data from the backend API"
       ]
     }
   ],
@@ -93,7 +125,7 @@
       "summary": "Specialization in Software Engineering, with a focus on Back-End Development. Courses include Data Structures, Algorithms, Object-Oriented Programming, and Software Development."
     },
     {
-      "institution": "SMKN Narmada",
+      "institution": "SMKN 1 Narmada",
       "url": "https://smkn1narmada.sch.id/",
       "area": "Computer and Network Engineering",
       "studyType": "Vocational High School",
@@ -105,7 +137,7 @@
   "awards": [
     {
       "title": "Certificate of participated in Web Development Internship program at SalonKita Indonesia",
-      "date": "September 2024",
+      "date": "Sep 2024",
       "awarder": "SalonKita Indonesia"
     }
   ],
@@ -113,7 +145,7 @@
     "programming_languages": ["Go", "JavaScript", "Python", "TypeScript", "Bash Script"],
     "frameworks": ["Fiber", "Gin", "Express.js", "Svelte", "Sveltekit", "Django", "Flask"],
     "databases": ["PostgreSQL", "Redis", "ClickHouse", "MySQL"],
-    "tools": ["Docker", "Linux", "Git"]
+    "tools": ["Docker", "Linux", "Git", "RabbitMQ"]
   },
   "projects": [
     {

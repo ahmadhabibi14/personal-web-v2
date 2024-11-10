@@ -1,6 +1,7 @@
 ---
 import Section from "./Section.astro";
 import { work } from "@cv";
+import { formatDate } from "@/lib/formatter";
 ---
 
 <Section className={Astro.props.className} title="Experience">
@@ -18,20 +19,19 @@ import { work } from "@cv";
             url,
             location,
             location_type,
+            job_type
           },
           index,
         ) => {
-          const startYear = new Date(startDate).getFullYear();
-          const endYear = endDate ? new Date(endDate).getFullYear() : "Present";
           const isLastItem = index === work.length - 1;
 
           return (
             <>
               {/* Datetime */}
               <div class="mt-1 text-xs font-bold text-black/50 dark:text-white/50">
-                <time datetime={startDate}>{startYear}</time>
+                <time datetime={startDate}>{formatDate(startDate)}</time>
                 <span class="mx-1">-</span>
-                <time datetime={endDate}>{endYear}</time>
+                <time datetime={endDate}>{endDate ? formatDate(endDate) : "Present"}</time>
               </div>
 
               {/* Timeline */}
@@ -72,11 +72,14 @@ import { work } from "@cv";
                     name
                   )}
                 </div>
-                {(location || location_type) && (
-                  <p class="mt-2 text-sm text-black/80 dark:text-white/80">
-                    {location} {location && location_type && " - "}{" "}
-                    {location_type}
-                  </p>
+                {(location || location_type || job_type) && (
+                  <div class="flex flex-row gap-2 items-center mt-2">
+                    <span class="flex items-center justify-center rounded-md border border-black/25 bg-neutral-200/50 px-2 py-1 text-xs text-black/80 dark:border-white/25 dark:bg-neutral-800/50 dark:text-white/80">{job_type}</span>
+                    <p class="text-sm text-black/80 dark:text-white/80">
+                      {location} {location && location_type && " - "}{" "}
+                      {location_type}
+                    </p>
+                  </div>
                 )}
                 <div class="mt-2 space-y-4 text-sm">
                   {summary && (
