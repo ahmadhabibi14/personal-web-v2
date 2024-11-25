@@ -157,6 +157,16 @@
         "Designed a simple user interface for users to interact with the chatbot."
       ],
       "technologies": ["Sveltekit", "Google Gemini", "TypeScript", "AssemblyAI"]
+    },
+    {
+      "name": "OsekBG",
+      "description": "Effortlessly Remove Your Background Image for #Free",
+      "url": "https://osekbg.hichuru.online/",
+      "highlights": [
+        "Designed a user interface with Neobrutalism style.",
+        "Very easy to use to remove your background image."
+      ],
+      "technologies": ["Sveltekit", "TypeScript", "@imgly/background-removal-node"]
     }
   ]
 }
