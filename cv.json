@@ -59,8 +59,8 @@
         "Design backend infrastructure, microservices, and setup server environment",
         "Built services, integrate and connect each services with RabbitMQ",
         "Implements database per-service pattern, and design database schema for each services",
-        "Implements streaming service with NATS.io",
-        "Deploy Kong API Gateway to handle API traffic and proxy to microservices",
+        "Implements streaming service with NATS",
+        "Deploy Kong API Gateway to handle traffic and proxy to microservices",
         "Setup database OLTP with PostgreSQL, OLAP with ClickHouse, and cache with Redis",
         "Built a web app for API Documentation, with authentication for each user's role, and dashboard monitoring for admin"
       ]
@@ -165,7 +165,7 @@
     "programming_languages": ["Go", "JavaScript", "Python", "TypeScript", "Bash Script"],
     "frameworks": ["Fiber", "Gin", "Express.js", "Svelte", "Sveltekit", "Django", "Flask"],
     "databases": ["PostgreSQL", "Redis", "ClickHouse", "MySQL"],
-    "tools": ["Docker", "Linux", "Git", "RabbitMQ"]
+    "tools": ["Docker", "Linux", "Git", "RabbitMQ", "NATS"]
   },
   "projects": [
     {
