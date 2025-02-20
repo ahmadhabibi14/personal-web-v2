@@ -46,6 +46,26 @@
   },
   "work": [
     {
+      "name": "Stevor",
+      "position": "Backend Engineer",
+      "job_type": "Full Time",
+      "location_type": "Remote",
+      "location": "Surabaya, Indonesia",
+      "url": "https://stevor.co.id/",
+      "startDate": "2024-11-27",
+      "endDate": null,
+      "summary": "Develop Backend services for logistic app, and other business needs.",
+      "responsibilities": [
+        "Design backend infrastructure, microservices, and setup server environment",
+        "Built services, integrate and connect each services with RabbitMQ",
+        "Implements database per-service pattern, and design database schema for each services",
+        "Implements streaming service with NATS.io",
+        "Deploy Kong API Gateway to handle API traffic and proxy to microservices",
+        "Setup database OLTP with PostgreSQL, OLAP with ClickHouse, and cache with Redis",
+        "Built a web app for API Documentation, with authentication for each user's role, and dashboard monitoring for admin"
+      ]
+    },
+    {
       "name": "Benalu Dev",
       "position": "Full-Stack Engineer",
       "job_type": "Freelance",
@@ -53,7 +73,7 @@
       "location": "Bali, Indonesia",
       "url": "https://benalu.dev",
       "startDate": "2023-06-26",
-      "endDate": "2024-12-27",
+      "endDate": null,
       "summary": "Work on a variety of projects, including web applications, APIs. Collaborated with clients to understand their needs and deliver high-quality solutions.",
       "responsibilities": [
         "Built back office / admin dashboard",
