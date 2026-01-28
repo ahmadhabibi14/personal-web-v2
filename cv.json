@@ -3,7 +3,7 @@
     "name": "Ahmad Rizky Nusantara Habibi",
     "nickname": "ahmadhabibi14",
     "label": "Undergraduate of Computer Science | Back-End Developer",
-    "summary": "Welcome to my spot on the web for Blogs I've written, Things I've created, and anything else that I want to show the world.",
+    "summary": "Welcome to a small corner of the web where I leave traces of my thoughts, the things I’ve built, and the questions I’m still trying to answer.",
     "location": {
       "city": "Lombok",
       "countryCode": "ID",
@@ -46,6 +46,22 @@
   },
   "work": [
     {
+      "name": "BRIDA NTB",
+      "position": "IT Support",
+      "job_type": "Internship",
+      "location_type": "On-site",
+      "location": "Mataram, Indonesia",
+      "url": "https://brida.ntbprov.go.id/",
+      "startDate": "2025-06-28",
+      "endDate": "2025-09-01",
+      "summary": "Assisted with general administrative tasks and daily office operations.",
+      "responsibilities": [
+        "Assisted with general administrative tasks and daily office operations.",
+        "Performed data entry and managed internal records to support research activities.",
+        "Designed promotional and event materials for agency programs and public events."
+      ]
+    },
+    {
       "name": "Stevor",
       "position": "Backend Engineer",
       "job_type": "Full Time",
@@ -53,36 +69,37 @@
       "location": "Surabaya, Indonesia",
       "url": "https://stevor.co.id/",
       "startDate": "2024-11-27",
-      "endDate": null,
+      "endDate": "2025-05-30",
       "summary": "Develop Backend services for logistic app, and other business needs.",
       "responsibilities": [
-        "Design backend infrastructure, microservices, and setup server environment",
-        "Built services, integrate and connect each services with RabbitMQ",
-        "Implements database per-service pattern, and design database schema for each services",
-        "Implements streaming service with NATS",
-        "Deploy Kong API Gateway to handle traffic and proxy to microservices",
-        "Setup database OLTP with PostgreSQL, OLAP with ClickHouse, and cache with Redis",
-        "Built a web app for API Documentation, with authentication for each user's role, and dashboard monitoring for admin"
+        "Built backend services for admin panel with Go, Fiber, PostgreSQL, etc.",
+        "Desiged microservices architecture with RabbitMQ for inter-service communications, and NATS as messaging service.",
+        "Developed API documentation web app to centralized all API documentation, with authentication and an admin dashboard using Go, Fiber, PostgreSQL, TailwindCSS, JavaScript.",
+        "Implements real-time chat system for feedback or complains to admin/customer service, chat between user and driver. Built with NATS, MongoDB, Go, etc.",
+        "Implements logging system with Clickhouse, for logged admin action, driver activity, etc.",
+        "Setup API Gateway with Kong for managing traffic and security.",
+        "Utilized PostgreSQL as OLTP database, ClickHouse as OLAP database, MongoDB for easy and flexible data storage, Redis for session, caching and fast data access.",
+        "Setup deployment for staging and production environment, with Linux Server.",
+        "Designed and implemented automated CI/CD pipelines for staging and production environments using Github Action."
       ]
     },
     {
-      "name": "Benalu Dev",
+      "name": "Benalu.dev",
       "position": "Full-Stack Engineer",
-      "job_type": "Freelance",
+      "job_type": "Part-time",
       "location_type": "Remote",
       "location": "Bali, Indonesia",
       "url": "https://benalu.dev",
       "startDate": "2023-06-26",
-      "endDate": null,
+      "endDate": "2025-12-31",
       "summary": "Work on a variety of projects, including web applications, APIs. Collaborated with clients to understand their needs and deliver high-quality solutions.",
       "responsibilities": [
-        "Built back office / admin dashboard",
-        "Slicing UI Design into website",
-        "Add features to an open source frontend framework, Svelte-MPA",
-        "Developed an open source Accounting software, Benakun.",
-        "Managing water sensor monitoring website",
-        "Migrate tech stack of water sensor monitoring website from jQuery to Svelte, Ruby to Go",
-        "Migrate OLAP use cases from PostgreSQL to Clickhouse"
+        "Built back office / admin dashboard for real-estate app. With Svelte, Go, Fiber, Clickhouse",
+        "Contributed to the open-source frontend framework Svelte-MPA. Built with NodeJS, esbuild, svelte-compiler, and used for various company projects.",
+        "Maintained and improved a water sensor monitoring web app, rewrites frontend web framework from jQuery to Svelte.",
+        "Migrate OLAP use cases from PostgreSQL to ClickHouse database.",
+        "Migrate IoT server from raw TCP server to NATS streaming server.",
+        "Built a Boarding House management web app. With Go, Fiber, Svelte, JavaScript, Tarantool, Clickhouse."
       ]
     },
     {
@@ -96,11 +113,11 @@
       "endDate": "2024-09-20",
       "summary": "Built CMS (Content Management System) for salon products and services.",
       "responsibilities": [
-        "Design system infrastructure for Backend API, Backoffice portal admin, Frontend web",
-        "Design database schema",
-        "Built backend API, implements rate-limiting, pagination, multi-role user, authentication, image resizing/compressing.",
-        "Setup server environment with Ubuntu Linux server, install Docker, NGINX, Nodejs, Go, etc.",
-        "Built back-office web app, for manage contents, users, products, etc. Implements protected routes, user-friendly UI, and charts"
+        "Designed system infrastructure for Backend API, Backoffice admin, and Frontend web.",
+        "Built backend API with Go, Fiber, Redis, PostgreSQL, Docker.",
+        "Built back-office web app, for manage blogs, partners, image banners, users. With Sveltekit, TypeScript, Nodejs, TailwindCSS.",
+        "Design database schema, with PostgreSQL.",
+        "Manage server and setup CI/CD scripts for deployment to 3 apps: Backend API, Backoffice portal admin, Frontend web) with Ubuntu Server, NGINX, Docker, and some Bash Script for automation."
       ]
     },
     {
@@ -163,9 +180,9 @@
   ],
   "skills": {
     "programming_languages": ["Go", "JavaScript", "Python", "TypeScript", "Bash Script"],
-    "frameworks": ["Fiber", "Gin", "Express.js", "Svelte", "Sveltekit", "Django", "Flask"],
+    "frameworks": ["Fiber", "Gin", "Echo", "Express.js", "Svelte", "Sveltekit", "Django", "Flask"],
     "databases": ["PostgreSQL", "Redis", "ClickHouse", "MySQL"],
-    "tools": ["Docker", "Linux", "Git", "RabbitMQ", "NATS"]
+    "tools": ["Docker", "Linux", "Git", "RabbitMQ", "NATS", "Grafana"]
   },
   "projects": [
     {
