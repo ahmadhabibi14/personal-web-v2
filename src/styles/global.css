@@ -112,3 +112,8 @@ header.scrolled {
 .font-playfair {
   font-family: "Playfair Display", serif;
 }
+
+::selection {
+  background-color: #6CA651;
+  color: #FFF;
+}
